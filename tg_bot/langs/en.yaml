@@ -9,13 +9,9 @@ set_chat_lang: "Great, {} it is from now on!"
 
 
 pm_start_text: |
-   Eww {}, I'm [{}],
-   I am a modular group management bot with some fun extras ;)
-   
-   I can do a variety of things, and help u manage your group efficiently!
-   
-   All commands can be accessed by using: / ! or >
-   *Click on help to learn more!*
+   Hola {}, I'm [{}],
+ - I'm here to help you manage your groups! 
+   Hit /help to find out more about how to use me to my full potential.\n\nJoin my [News Channel](http://t.me/Teamfoxbots) to get information on all the latest updates
 
 #    - Restrict users with *ban permissions*.
 #    - Greet users with media + text and buttons, with proper formatting.
