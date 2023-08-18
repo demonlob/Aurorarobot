@@ -11,7 +11,7 @@ set_chat_lang: "Great, {} it is from now on!"
 pm_start_text: |
    Hola {}, I'm [{}],
  - I'm here to help you manage your groups! 
-   Hit /help to find out more about how to use me to my full potential.\n\nJoin my [News Channel](http://t.me/Teamfoxbots) to get information on all the latest updates
+   Hit /help to find out more about how to use me to my full potential.Join my [News Channel](http://t.me/Teamfoxbots) to get information on all the latest updates
 
 #    - Restrict users with *ban permissions*.
 #    - Greet users with media + text and buttons, with proper formatting.
