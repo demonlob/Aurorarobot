@@ -1,1 +1,2 @@
-web: python3 -m tg_bot 2>&1 | tee logs.txt
+worker: python3 -m tg_bot
+ps:scale worker=1
