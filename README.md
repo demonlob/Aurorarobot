@@ -17,6 +17,9 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cfb691a93a064d9ea753ef2b5fccf797)](https://www.codacy.com/manual/OdinRobot/OdinRobot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OdinRobot/OdinRobot&amp;utm_campaign=Badge_Grade)
 
 
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/demonlob/Aurora.git)
+
+
 A modular telegram Group management Python bot running on python3 with a sqlalchemy database.
 
 Originally a marie fork
