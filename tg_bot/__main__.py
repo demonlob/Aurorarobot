@@ -221,21 +221,8 @@ def start_buttons(context, chat):
     return [
         [
             InlineKeyboardButton(
-                text=gs(chat.id, "support_chat_link_btn"),
-                url='https://t.me/TheBotsSupport',
-            ),
-            InlineKeyboardButton(
                 text=gs(chat.id, "add_bot_to_group_btn"),
                 url="t.me/{}?startgroup=true".format(context.bot.username),
-            ),
-            InlineKeyboardButton(
-                text="Try inline", switch_inline_query_current_chat=""
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="Help",
-                callback_data="help_back",
             ),
         ],
     ]
@@ -309,7 +296,6 @@ def help_button(update: Update, context: CallbackContext):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="Back", callback_data="help_back"),
-                    InlineKeyboardButton(text='Support', url='https://t.me/TheBotsSupport')
                 ]
                     )
             query.message.edit_text(
@@ -323,9 +309,7 @@ def help_button(update: Update, context: CallbackContext):
             kb = paginate_modules(curr_page - 1, HELPABLE, "help")
             kb.append(
                 [
-                    InlineKeyboardButton(text='Support', url='https://t.me/TheBotsSupport'),
                     InlineKeyboardButton(text='Back', callback_data='start_back'),
-                    InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")
                 ]
                     )
             query.message.edit_text(
@@ -339,9 +323,7 @@ def help_button(update: Update, context: CallbackContext):
             kb = paginate_modules(next_page + 1, HELPABLE, "help")
             kb.append(
                 [
-                    InlineKeyboardButton(text='Support', url='https://t.me/TheBotsSupport'),
-                    InlineKeyboardButton(text='Back', callback_data='start_back'),
-                    InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")
+                  
                 ]
                     )
             query.message.edit_text(
@@ -354,9 +336,7 @@ def help_button(update: Update, context: CallbackContext):
             kb = paginate_modules(0, HELPABLE, "help")
             kb.append(
                 [
-                    InlineKeyboardButton(text='Support', url='https://t.me/TheBotsSupport'),
-                    InlineKeyboardButton(text='Back', callback_data='start_back'),
-                    InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")
+                  
                 ]
                     )
             query.message.edit_text(
