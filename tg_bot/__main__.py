@@ -624,7 +624,7 @@ def donate(update: Update, _: CallbackContext):
 
 @kigcmd(command='support')
 def support(update: Update, context: CallbackContext):
-    supporttext = "Join the support chat\n@TheBotsSupport\n\nGet the latest news\n@LukeBots"
+    supporttext = "Join the support chat\n@Teamfoxbots"
     update.effective_message.reply_text(supporttext)
 
 
