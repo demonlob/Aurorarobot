@@ -75,13 +75,6 @@ afk_help: |
    - brb <reason>: same as the afk command - but not a command.
    When marked as AFK, any mentions will be replied to with a message to say you're not available!
 
-anilist_help: |
-    *AniList*
-    Get information about anime, manga or characters with the help of this module! All data is fetched from [AniList](anilist.co).
-    *Available commands:*
-     - /anime <anime>: returns information about the anime.
-     - /character <character>: returns information about the character.
-     - /manga <manga>: returns information about the manga.
 
 antiflood_help: |
     Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood
@@ -291,7 +284,6 @@ antispam_help: |
      *Admins only:*
       • `/antispam <on/off/yes/no>`*:* Will toggle our antispam tech or return your current settings.
       • `/gbanstat <on/off/yes/no>`*:* Will toggle our antispam tech or return your current settings.
-      • `/sibylban`*:* Will toggle sibyl system antispam tech.
 
      Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect
      you and your groups by removing spam flooders as quickly as possible.
@@ -429,8 +421,6 @@ misc_help: |
       • /stickerid: reply to a sticker to get its ID.
       • /getsticker: reply to a sticker to get the raw PNG image.
       • /steal: reply to a sticker or image to add it to your pack.
-      • /spb : get info about a user from @Intellivoid's SpamProtection API
-      • /spbinfo : get info about a user from @Intellivoid's SpamProtection API
       • /afk <reason>: mark yourself as AFK(away from keyboard).
       • brb <reason>: same as the afk command - but not a command.
       When marked as AFK, any mentions will be replied to with a message to say you're not available!
@@ -571,37 +561,8 @@ stickers_help: |
       • `/getsticker`*:* get the replied sticker in an image format.
       • `/kang`*:* add the replied sticker to your pack.
       • `/steal`*:* add the replied sticker to your pack.
-github_help: |
-      *Github module. This module will fetch github releases*
-      *Available commands:*
-       • `/git <user>/<repo>`: will fetch the most recent release from that repo.
-       • `/git <user>/<repo> <number>`: will fetch releases in past.
-       • `/fetch <reponame> or &reponame`: same as `/git`, but you can use a saved repo shortcut
-       • `/gitver`: returns the current API version
-       • `/changelog <reponame>`: gets the changelog of a saved repo shortcut
-
-#        • `/listrepo`: lists all repo shortcuts in chat
-#       *Admin only:*
-#        • `/saverepo <name> <user>/<repo> <number (optional)>`: saves a repo value as shortcut
-#        • `/delrepo <name>`: deletes a repo shortcut
 
 
-android_help: |
-       *Available commands:*
-       *Magisk:* 
-       • `/magisk`, `/su`, `/root`: fetches latest magisk
-       *OrangeFox Recovery Project:* 
-       • `/orangefox` `<devicecodename>`: fetches lastest OrangeFox Recovery available for a given device codename
-       • `/ofox` `<devicecodename>`: same as orangefox
-       *TWRP:* 
-       • `/twrp <devicecodename>`: fetches lastest TWRP available for a given device codename
-       *MIUI:*
-       • `/miui <devicecodename>`- fetches latest firmware info for a given device codename
-       *Phh:* 
-       • `/phh`: get lastest phh builds from github
-       *Samsung:*
-       • `/checkfw <model> <csc>` - Samsung only - shows the latest firmware info for the given device, taken from samsung servers
-       • `/getfw <model> <csc>` - Samsung only - gets firmware download links from samfrew, sammobile and sfirmwares for the given device
 
 # lockgroup_help: |
 #        *Available commands:*
