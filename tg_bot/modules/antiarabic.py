@@ -7,7 +7,7 @@ from telegram.ext import CallbackContext, CommandHandler, MessageHandler, Filter
 from telegram.ext.dispatcher import run_async
 
 from tg_bot import dispatcher
-from .helper_funcs.chat_status import user_not_admin, user_admin, can_delete
+from .helper_funcs.chat_status import user_admin, can_delete
 from .helper_funcs.extraction import extract_text
 from .sql import antiArabic_sql as sql
 
